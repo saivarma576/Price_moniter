@@ -1,0 +1,115 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/RPA_projects/PriceMoniter/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "D:/RPA_projects/PriceMoniter",
+        "testIgnore": [],
+        "testMatch": [
+          "script1.test.ts"
+        ],
+        "timeout": 500000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/RPA_projects/PriceMoniter",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.20.1",
+    "workers": 1,
+    "webServer": null,
+    "__testGroupsCount": 1
+  },
+  "suites": [
+    {
+      "title": "script1.test.ts",
+      "file": "script1.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Vendor Registration Request",
+          "file": "script1.test.ts",
+          "line": 4,
+          "column": 17,
+          "specs": [
+            {
+              "title": "VRR Submission",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4527,
+                      "stdout": [
+                        {
+                          "text": "Niels Kersic\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\RPA_projects\\PriceMoniter\\test-results\\script1-Vendor-Registration-Request-VRR-Submission\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "script1.test.ts",
+              "line": 6,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
